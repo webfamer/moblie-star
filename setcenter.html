@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./static/lib/layui/css/layui.css" />
+    <link rel="stylesheet" href="./static/css/setcenter.css" />
+    <link rel="stylesheet" href="./static/css/reset.css" />
+  </head>
+  <body>
+    <div class="myorder">
+      <div class="header">
+        <span><i class="layui-icon layui-icon-left"></i></span>
+        <span>设置</span>
+        <span></span>
+      </div>
+      <div class="main">
+        <ul>
+          <li>
+            <span>用户名</span>
+            <span>13890909809</span>
+        </li>
+          <li>
+              <span>修改密码</span>
+              <span><i class="layui-icon layui-icon-right"></i></span>
+            </li>
+          <li>
+              <span>帮助中心</span>
+            <span><i class="layui-icon layui-icon-right"></i></span>
+        </li>
+        </ul>
+        <div class="btn">
+            保存
+        </div>
+      </div>
+    </div>
+    <script>
+      //当窗口大小重新发生变化的时候触发
+      window.onresize = function() {
+        resizeFont();
+      };
+      resizeFont();
+      //重置当前rem的基本参照字体大小
+      function resizeFont() {
+        //当前设备宽度
+        var _w = window.screen.width;
+        document.documentElement.style.fontSize = _w / 10 + "px";
+      }
+    </script>
+  </body>
+</html>

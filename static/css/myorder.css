@@ -1,0 +1,98 @@
+.myorder .header {
+  box-sizing: border-box;
+  padding: 0.44rem;
+  display: flex;
+  height: 1.173333rem;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.426667rem;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #222222;
+  border-bottom: 1px solid #eee;
+}
+.myorder .menu {
+  box-sizing: border-box;
+  padding-left: 0.44rem;
+  padding-right: 0.44rem;
+}
+.myorder .menu ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 1.173333rem;
+}
+.myorder .menu ul li {
+  height: 1.173333rem;
+  font-size: 0.373333rem;
+  line-height: 1.173333rem;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #333333;
+}
+.myorder .menu ul .active {
+  color: #d8b746;
+  border-bottom: 1px solid #d8b746;
+}
+.myorder .main {
+  background: #F6F4F9;
+  overflow: hidden;
+  background: #F6F4F9;
+}
+.myorder .main .item {
+  overflow: hidden;
+  width: 9.146667rem;
+  margin: 0.426667rem auto;
+  background: #fff;
+  height: 3.52rem;
+  border-radius: 0.16rem;
+}
+.myorder .main .item .item-t {
+  box-sizing: border-box;
+  padding: 0.346667rem;
+  overflow: hidden;
+}
+.myorder .main .item .item-t img {
+  width: 1.813333rem;
+  height: 1.813333rem;
+  float: left;
+  margin-right: 0.28rem;
+}
+.myorder .main .item .item-t .info {
+  float: left;
+  height: 1.813333rem;
+}
+.myorder .main .item .item-t .info h2 {
+  font-size: 0.4rem;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.myorder .main .item .item-t .info p {
+  font-size: 0.346667rem;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #999999;
+  margin-top: 0.266667rem;
+}
+.myorder .main .item .btn {
+  background: #e8c756;
+  border-radius: 0.386667rem;
+  text-align: center;
+  width: 2.133333rem;
+  float: right;
+  margin-right: 0.4rem;
+  height: 0.773333rem;
+  line-height: 0.773333rem;
+  font-size: 0.346667rem;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  margin-bottom: 0.133333rem;
+}
+.myorder .main .item .shipment {
+  background: #fff;
+  border: 1px solid #ccc;
+}
+
+/*# sourceMappingURL=myorder.css.map */

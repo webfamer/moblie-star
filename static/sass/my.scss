@@ -1,0 +1,174 @@
+.my {
+    background: #f6f4f9;
+    .header {
+      height: 5.213333rem;
+      width: 100%;
+      color: #fff;
+      line-height: 1.6rem;
+      font-size: 0.453333rem;
+      text-align: center;
+      background: url("../img/header-bg.png");
+      background-size: contain;
+      .btnicon {
+        text-align: right;
+        img {
+          width: 0.493333rem;
+          height: 0.52rem;
+          margin-right: 0.693333rem;
+        }
+      }
+      .avator {
+        text-align: left;
+        float: left;
+        img {
+          float: left;
+          width: 1.44rem;
+          height: 1.44rem;
+          margin-left: 0.426667rem;
+          margin-right: 0.333333rem;
+        }
+        .info {
+          float: left;
+          margin-top: -0.4rem;
+          span {
+            font-size: 0.426667rem;
+            font-family: PingFang SC;
+            font-weight: 500;
+            color: rgba(246, 244, 249, 1);
+          }
+          .rank {
+            text-align: center;
+            display: inline-block;
+            width: 1.706667rem;
+            height: 0.506667rem;
+            background: #e8c756;
+            border-radius: 19px;
+            font-size: 0.32rem;
+            font-family: PingFang SC;
+            font-weight: 500;
+            color: rgba(152, 51, 125, 1);
+            line-height: 0.506667rem;
+          }
+          .tel {
+            height: 0.293333rem;
+            font-size: 0.373333rem;
+            font-family: PingFang SC;
+            font-weight: 400;
+            color: rgba(246, 244, 249, 1);
+            line-height: 0.64rem;
+            opacity: 0.6;
+            margin-top: -0.4rem;
+          }
+        }
+      }
+    }
+  
+    .main {
+      box-sizing: border-box;
+      padding: 0.44rem;
+      .asset {
+        height: 2.4rem;
+        background: #fff;
+        border-radius: 0.16rem;
+        padding-top: 0.666667rem;
+        text-align: center;
+        margin-top: -2rem;
+        ul {
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          li {
+            p {
+              font-size: 0.48rem;
+              font-family: DIN Alternate;
+              font-weight: bold;
+              color: rgba(34, 34, 34, 1);
+              span {
+                font-size: 0.373333rem;
+              }
+            }
+            p:last-child {
+              margin-top: 0.506667rem;
+              font-size: 0.346667rem;
+              font-family: PingFang SC;
+              font-weight: 400;
+              color: rgba(153, 153, 153, 1);
+            }
+          }
+        }
+      }
+      .menu {
+          box-sizing: border-box;
+          padding: 0.44rem;
+        width: 9.146667rem;
+        height: 11.333333rem;
+        background: rgba(255, 255, 255, 1);
+        border-radius: 0.16rem;
+        margin-top: 0.4rem;
+        ul{
+            li{
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              height: 1.333333rem;
+              .menu-l{
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  img{
+                      width: .4rem;
+                      height: .466667rem;
+                      margin-right: .4rem;
+                  }
+                  span{
+                    font-size:.426667rem;
+                    font-family:PingFang SC;
+                    font-weight:500;
+                    color:rgba(34,34,34,1);
+                  }
+              }
+               
+                .icon-r{
+                    width: .16rem;
+                    height: .28rem;
+                }
+            }
+        }
+      }
+    }
+    .footer {
+      width: 100%;
+      height: 1.6rem;
+      background: linear-gradient(
+        264deg,
+        rgba(192, 59, 112, 0.97),
+        rgba(74, 36, 152, 0.97)
+      );
+      ul {
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+  
+      li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        img {
+          width: 0.48rem;
+          height: 0.48rem;
+        }
+        span {
+          font-size: 0.266667rem;
+          font-family: PingFang SC;
+          font-weight: 400;
+          color: rgba(255, 255, 255, 1);
+          line-height: 0.64rem;
+          opacity: 0.5;
+        }
+      }
+    }
+  }
+  

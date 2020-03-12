@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./static/lib/layui/css/layui.css" />
+    <link rel="stylesheet" href="./static/css/mywallet.css" />
+    <link rel="stylesheet" href="./static/css/reset.css" />
+  </head>
+  <body>
+    <div class="mywallet">
+      <div class="header">
+       <span>我的钱包</span>
+      </div>
+      <div class="main">
+        <ul>
+            <li class="item1">
+              <div class="word">
+                <p class="price"><span>¥</span>1920.0</p>
+                <p class="tips">资产钱包</p>
+              </div>
+            </li>
+            <li class="item2">
+              <div class="word">
+                <p class="price"><span>¥</span>12.0</p>
+                <p class="tips">分红钱包</p>
+              </div> 
+            </li>
+            <li class="item3">
+              <div class="word">
+                <p class="price"><span>¥</span>1092.0</p>
+                <p class="tips">网红钱包</p>
+              </div>
+            </li>
+            <li class="item4">
+              <div class="word">
+                <p class="price"><span>¥</span>1009.8</p>
+                <p class="tips">余额钱包</p>
+              </div>  
+            </li>
+        </ul>
+    </div>
+    <div class="footer">
+      <ul>
+        <li>
+          <img src="./static/img/index-checked.png" alt="">
+          <span>首页</span>
+        </li>
+        <li>
+          <img src="./static/img/shopping.png" alt="">
+          <span>商城</span>
+        </li>
+        <li>
+          <img src="./static/img/wallet-icon.png" alt="">
+          <span>钱包</span>
+        </li>
+        <li>
+          <img src="./static/img/my.png" alt="">
+          <span>我的</span>
+        </li>
+      </ul>
+    </div>
+    <script>
+      //当窗口大小重新发生变化的时候触发
+      window.onresize = function() {
+        resizeFont();
+      };
+      resizeFont();
+      //重置当前rem的基本参照字体大小
+      function resizeFont() {
+        //当前设备宽度
+        var _w = window.screen.width;
+        document.documentElement.style.fontSize = _w / 10 + "px";
+      }
+    </script>
+  </body>
+</html>

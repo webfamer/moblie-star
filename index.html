@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./static/css/reset.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+</head>
+<body>
+<div class="index">
+  <div class="btn">立即体验</div>
+</div>
+
+
+
+  <script>
+//当窗口大小重新发生变化的时候触发
+window.onresize = function(){
+	resizeFont();
+}
+resizeFont();
+//重置当前rem的基本参照字体大小
+function resizeFont(){
+	//当前设备宽度
+	var _w = window.screen.width;
+	document.documentElement.style.fontSize = _w/10 + 'px';
+}
+  </script>
+
+</body>
+</html>

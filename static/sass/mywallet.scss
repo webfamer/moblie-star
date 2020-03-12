@@ -1,0 +1,106 @@
+.mywallet {
+  .header {
+    width: 100%;
+    height: 1.706667rem;
+    background: linear-gradient(264deg, rgba(192, 59, 112, 0.97), rgba(74, 36, 152, 0.97));
+    text-align: center;
+    line-height: 1.706667rem;
+
+    span {
+      font-size: .453333rem;
+      font-family: 'microsoft yahei';
+      font-family: PingFang SC;
+      font-weight: 500;
+      color: rgba(255, 255, 255, 1);
+    }
+  }
+.main{
+  box-sizing: border-box;
+  padding: .426667rem;
+  overflow: hidden;
+  background: #F6F4F9;
+  li{
+    float: left;
+    width: 4.373333rem;
+    height: 6.746667rem;
+    .word{
+      text-align: center;
+      margin-top: 4.28rem;
+      .price{
+        span{
+          font-size:.506667rem;
+        }
+        font-size: .746667rem;
+font-family:DIN Alternate;
+font-weight:bold;
+color:rgba(234,49,105,1);
+      }
+    }
+    .tips{
+      font-size:.373333rem;
+font-family:PingFang SC;
+font-weight:400;
+color:rgba(153,153,153,1);
+margin-top: .653333rem;
+    }
+  }
+  .item1{
+    background: url('../img/wallet1.png') no-repeat center;
+    background-size: contain;
+    margin-right: .32rem;
+  }
+  .item2{
+    background: url('../img/wallet2.png') no-repeat center;
+    background-size: contain;
+
+  }
+  .item3{
+    background: url('../img/wallet3.png') no-repeat center;
+    background-size: contain;
+    margin-right: .32rem;
+    margin-top: .426667rem;
+
+  }
+  .item4{
+    background: url('../img/wallet4.png') no-repeat center;
+    background-size: contain;
+    margin-top: .426667rem;
+
+  }
+}
+  .footer {
+    width: 100%;
+    height: 1.6rem;
+    background: linear-gradient(264deg,
+        rgba(192, 59, 112, 0.97),
+        rgba(74, 36, 152, 0.97));
+
+    ul {
+      height: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    li {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      img {
+        width: 0.48rem;
+        height: 0.48rem;
+      }
+
+      span {
+        font-size: 0.266667rem;
+        font-family: PingFang SC;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 1);
+        line-height: 0.64rem;
+        opacity: 0.5;
+      }
+    }
+  }
+}

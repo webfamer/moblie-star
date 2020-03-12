@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./static/css/reset.css">
+  <link rel="stylesheet" href="./static/css/starIndex.css">
+</head>
+<body>
+<div class="starIndex">
+    <div class="header">
+        <div class="tips">
+            <img src="./static/img/notice.png" alt="">
+            <span>简简单单用户在03-05 10:52成功签约</span>
+        </div>
+    </div>
+    <div class="main">
+        <div class="item">
+            <h2>网红签约</h2>
+            <div class="time">9:00-10:00</div>
+            <span>签约时间</span>
+            <div class="rate">0.50%-1.20%</div>
+            <span>单次盈利</span>
+            <a href="" class="btn">进入签约</a>
+        </div>
+        <div class="item">
+            <h2>网红签约</h2>
+            <div class="time">9:00-10:00</div>
+            <span>签约时间</span>
+            <div class="rate">0.50%-1.20%</div>
+            <span>单次盈利</span>
+            <a href="" class="btn">进入签约</a>
+        </div>
+        <div class="item">
+            <h2>网红签约</h2>
+            <div class="time">9:00-10:00</div>
+            <span>签约时间</span>
+            <div class="rate">0.50%-1.20%</div>
+            <span>单次盈利</span>
+            <a href="" class="btn">进入签约</a>
+        </div>
+        <div class="item">
+            <h2>网红签约</h2>
+            <div class="time">9:00-10:00</div>
+            <span>签约时间</span>
+            <div class="rate">0.50%-1.20%</div>
+            <span>单次盈利</span>
+            <a href="" class="btn">进入签约</a>
+        </div>
+    </div>
+    <div class="footer">
+        <ul>
+          <li>
+            <img src="./static/img/index-checked.png" alt="">
+            <span>首页</span>
+          </li>
+          <li>
+            <img src="./static/img/shopping.png" alt="">
+            <span>商城</span>
+          </li>
+          <li>
+            <img src="./static/img/wallet-icon.png" alt="">
+            <span>钱包</span>
+          </li>
+          <li>
+            <img src="./static/img/my.png" alt="">
+            <span>我的</span>
+          </li>
+        </ul>
+      </div>
+</div>
+
+
+
+  <script>
+//当窗口大小重新发生变化的时候触发
+window.onresize = function(){
+	resizeFont();
+}
+resizeFont();
+//重置当前rem的基本参照字体大小
+function resizeFont(){
+	//当前设备宽度
+	var _w = window.screen.width;
+	document.documentElement.style.fontSize = _w/10 + 'px';
+}
+  </script>
+
+</body>
+</html>

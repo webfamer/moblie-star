@@ -1,0 +1,43 @@
+.setcenter {
+  box-sizing: border-box;
+  padding: 0.44rem;
+  padding-top: 0;
+}
+.setcenter .header {
+  display: flex;
+  height: 1.173333rem;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.426667rem;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #222222;
+  border-bottom: 1px solid #eee;
+}
+.setcenter .main li {
+  border-bottom: 1px solid #eee;
+  height: 1.706667rem;
+  font-size: 0.426667rem;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #222222;
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.893333rem;
+}
+.setcenter .main .btn {
+  width: 9.146667rem;
+  height: 1.306667rem;
+  background: #e8c756;
+  border-radius: 12px;
+  margin: 0 auto;
+  font-size: 0.426667rem;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #222222;
+  text-align: center;
+  line-height: 1.306667rem;
+  margin-top: 1.333333rem;
+}
+
+/*# sourceMappingURL=setcenter.css.map */

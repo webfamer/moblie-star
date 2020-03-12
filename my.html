@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./static/lib/layui/css/layui.css" />
+    <link rel="stylesheet" href="./static/css/my.css" />
+    <link rel="stylesheet" href="./static/css/reset.css" />
+</head>
+
+<body>
+    <div class="my">
+        <div class="header">
+            <div class="btnicon">
+                <img src="./static/img/msg.png" alt=""><img src="./static/img/set.png" alt="">
+            </div>
+            <div class="avator">
+                <img src="./static/img/headerimg.png" alt="">
+                <div class="info">
+                    <span>李明慧</span>
+                    <span class="rank">普通会员</span>
+                    <p class="tel">15288208989</p>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="asset">
+                <ul>
+                    <li>
+                        <p><span>¥</span> 98.00</p>
+                        <p>可取资产</p>
+                    </li>
+                    <li>
+                        <p><span>¥</span> 109.80</p>
+                        <p>网红基金</p>
+                    </li>
+                    <li>
+                        <p><span>¥</span>209.80</p>
+                        <p>总资产</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <div class="menu-l">
+                            <img src="./static/img/ticket.png" alt="">
+                            <span>我的订单</span>
+                        </div>
+                       <img src="./static/img/icon-r.png" alt="" class="icon-r">
+                    </li>
+                    <li>
+                        <div class="menu-l">
+                            <img src="./static/img/postion.png" alt="">
+                            <span>收货地址</span>
+                        </div>
+                       <img src="./static/img/icon-r.png" alt="" class="icon-r">
+                    </li>
+                    <li>
+                        <div class="menu-l">
+                            <img src="./static/img/ticket.png" alt="">
+                            <span>签约信息</span>
+                        </div>
+                       <img src="./static/img/icon-r.png" alt="" class="icon-r">
+                    </li>
+                    <li>
+                        <div class="menu-l">
+                            <img src="./static/img/wallet.png" alt="">
+                            <span>钱包充值</span>
+                        </div>
+                       <img src="./static/img/icon-r.png" alt="" class="icon-r">
+                    </li>
+                    <li>
+                        <div class="menu-l">
+                            <img src="./static/img/account.png" alt="">
+                            <span>账单明细</span>
+                        </div>
+                       <img src="./static/img/icon-r.png" alt="" class="icon-r">
+                    </li>
+                    <li>
+                        <div class="menu-l">
+                            <img src="./static/img/personalinfo.png" alt="">
+                            <span>个人信息</span>
+                        </div>
+                       <img src="./static/img/icon-r.png" alt="" class="icon-r">
+                    </li>
+                    <li>
+                        <div class="menu-l">
+                            <img src="./static/img/team.png" alt="">
+                            <span>我的团队</span>
+                        </div>
+                       <img src="./static/img/icon-r.png" alt="" class="icon-r">
+                    </li>
+                    <li>
+                        <div class="menu-l">
+                            <img src="./static/img/invite.png" alt="">
+                            <span>邀请好友</span>
+                        </div>
+                       <img src="./static/img/icon-r.png" alt="" class="icon-r">
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer">
+            <ul>
+                <li>
+                    <img src="./static/img/index-checked.png" alt="">
+                    <span>首页</span>
+                </li>
+                <li>
+                    <img src="./static/img/shopping.png" alt="">
+                    <span>商城</span>
+                </li>
+                <li>
+                    <img src="./static/img/wallet-icon.png" alt="">
+                    <span>钱包</span>
+                </li>
+                <li>
+                    <img src="./static/img/my.png" alt="">
+                    <span>我的</span>
+                </li>
+            </ul>
+        </div>
+        <script>
+            //当窗口大小重新发生变化的时候触发
+            window.onresize = function () {
+                resizeFont();
+            };
+            resizeFont();
+            //重置当前rem的基本参照字体大小
+            function resizeFont() {
+                //当前设备宽度
+                var _w = window.screen.width;
+                document.documentElement.style.fontSize = _w / 10 + "px";
+            }
+        </script>
+</body>
+
+</html>

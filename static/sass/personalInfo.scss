@@ -1,0 +1,87 @@
+.setcenter {
+  box-sizing: border-box;
+  padding: 0.44rem;
+  padding-top: 0;
+  .header {
+    display: flex;
+    height: 1.173333rem;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.426667rem;
+    font-family: PingFang SC;
+    font-weight: 500;
+    color: rgba(34, 34, 34, 1);
+    border-bottom: 1px solid #eee;
+  }
+  .main {
+    li{
+      font-size:.426667rem;
+font-family:PingFang SC;
+font-weight:500;
+color:rgba(34,34,34,1);
+line-height:.64rem;
+margin-top: .653333rem;
+    }
+    input {
+      width: 9.146667rem;
+      height: 1.306667rem;
+      background: #f5f5f5;
+      margin: 0 auto;
+      text-indent: 0.693333rem;
+      font-size: 0.466667rem;
+      border: 0px;
+      outline: none;
+      color: #999999;
+      margin-top: 0.333333rem;
+      margin-bottom: 0.333333rem;
+      border-radius: 0.16rem;
+    }
+
+    ::-webkit-input-placeholder {
+      /* WebKit, Blink, Edge */
+      color: #999999;
+      font-size: 0.426667rem;
+      font-family: PingFang SC;
+      font-weight: 400;
+    }
+
+    :-moz-placeholder {
+      /* Mozilla Firefox 4 to 18 */
+      color: #999999;
+      font-size: 0.426667rem;
+      font-family: PingFang SC;
+      font-weight: 400;
+    }
+
+    ::-moz-placeholder {
+      /* Mozilla Firefox 19+ */
+      color: #999999;
+      font-size: 0.426667rem;
+      font-family: PingFang SC;
+      font-weight: 400;
+    }
+
+    :-ms-input-placeholder {
+      /* Internet Explorer 10-11 */
+      color: #999999;
+      font-size: 0.426667rem;
+      font-family: PingFang SC;
+      font-weight: 400;
+    }
+
+    .btn {
+      width: 9.146667rem;
+      height: 1.306667rem;
+      background: #e8c756;
+      border-radius: 12px;
+      margin: 0 auto;
+      font-size: 0.426667rem;
+      font-family: PingFang SC;
+      font-weight: 500;
+      color: rgba(34, 34, 34, 1);
+      text-align: center;
+      line-height: 1.306667rem;
+      margin-top: 1.333333rem;
+    }
+  }
+}
